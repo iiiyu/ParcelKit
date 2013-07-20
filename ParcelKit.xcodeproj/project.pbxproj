@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		20A9507BDE7E4EA39A73E501 /* libPods-ParcelKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD08FAF0870488884412C54 /* libPods-ParcelKitTests.a */; };
 		AB1E6AF01795AD8500FF03A8 /* NSManagedObject+ParcelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E6AEF1795AD8500FF03A8 /* NSManagedObject+ParcelKitTests.m */; };
 		AB1E6AF31795D77A00FF03A8 /* PKListMock.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E6AF21795D77A00FF03A8 /* PKListMock.m */; };
 		AB1E6AF51795E2BF00FF03A8 /* DBRecord+ParcelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E6AF41795E2BF00FF03A8 /* DBRecord+ParcelKitTests.m */; };
@@ -30,7 +31,6 @@
 		AB3F8D3517935E2D000F8FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3F8D3417935E2D000F8FA0 /* UIKit.framework */; };
 		AB3F8D3B17935E2D000F8FA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB3F8D3917935E2D000F8FA0 /* InfoPlist.strings */; };
 		AB3F8D4517935E6C000F8FA0 /* PKSyncManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3F8D4417935E6C000F8FA0 /* PKSyncManagerTests.m */; };
-		AB6EF676179432FF00D0BAB0 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6EF66F179432FF00D0BAB0 /* libOCMock.a */; };
 		AB6EF6791794363500D0BAB0 /* Tests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB6EF6771794363500D0BAB0 /* Tests.xcdatamodeld */; };
 		AB6EF67F17943D6400D0BAB0 /* NSManagedObjectContext+ParcelKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6EF67E17943D6400D0BAB0 /* NSManagedObjectContext+ParcelKitTests.m */; };
 		AB6EF6851794783400D0BAB0 /* PKDatastoreMock.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6EF6841794783400D0BAB0 /* PKDatastoreMock.m */; };
@@ -91,6 +91,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F9095E1F7BD4676957A85B3 /* Pods-ParcelKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParcelKitTests.xcconfig"; path = "Pods/Pods-ParcelKitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		AB1E6AEF1795AD8500FF03A8 /* NSManagedObject+ParcelKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+ParcelKitTests.m"; sourceTree = "<group>"; };
 		AB1E6AF11795D77A00FF03A8 /* PKListMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKListMock.h; sourceTree = "<group>"; };
 		AB1E6AF21795D77A00FF03A8 /* PKListMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKListMock.m; sourceTree = "<group>"; };
@@ -102,13 +103,6 @@
 		AB3F8D3A17935E2D000F8FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB3F8D3E17935E2D000F8FA0 /* ParcelKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParcelKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		AB3F8D4417935E6C000F8FA0 /* PKSyncManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKSyncManagerTests.m; sourceTree = "<group>"; };
-		AB6EF66F179432FF00D0BAB0 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		AB6EF670179432FF00D0BAB0 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		AB6EF671179432FF00D0BAB0 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		AB6EF672179432FF00D0BAB0 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		AB6EF673179432FF00D0BAB0 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		AB6EF674179432FF00D0BAB0 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		AB6EF675179432FF00D0BAB0 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		AB6EF6781794363500D0BAB0 /* Tests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tests.xcdatamodel; sourceTree = "<group>"; };
 		AB6EF67D17943D6400D0BAB0 /* NSManagedObjectContext+ParcelKitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+ParcelKitTests.h"; sourceTree = "<group>"; };
 		AB6EF67E17943D6400D0BAB0 /* NSManagedObjectContext+ParcelKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ParcelKitTests.m"; sourceTree = "<group>"; };
@@ -136,6 +130,7 @@
 		ABE87A291793556400E2A1DA /* DBRecord+ParcelKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DBRecord+ParcelKit.m"; sourceTree = "<group>"; };
 		ABE87A361793558A00E2A1DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		ABE87A3A179355F400E2A1DA /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		AFD08FAF0870488884412C54 /* libPods-ParcelKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParcelKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +140,6 @@
 			files = (
 				ABC7D10F1793611E00AAA1CA /* MobileCoreServices.framework in Frameworks */,
 				ABC7D10D1793611800AAA1CA /* CFNetwork.framework in Frameworks */,
-				AB6EF676179432FF00D0BAB0 /* libOCMock.a in Frameworks */,
 				ABC7D10B1793611300AAA1CA /* SystemConfiguration.framework in Frameworks */,
 				ABC7D1091793610700AAA1CA /* Security.framework in Frameworks */,
 				ABC7D1071793610300AAA1CA /* QuartzCore.framework in Frameworks */,
@@ -154,6 +148,7 @@
 				AB3F8D3517935E2D000F8FA0 /* UIKit.framework in Frameworks */,
 				AB3F8D3317935E2D000F8FA0 /* Foundation.framework in Frameworks */,
 				ABC7D0FD1793600B00AAA1CA /* Dropbox.framework in Frameworks */,
+				20A9507BDE7E4EA39A73E501 /* libPods-ParcelKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +171,6 @@
 				AB1E6AEF1795AD8500FF03A8 /* NSManagedObject+ParcelKitTests.m */,
 				AB1E6AF41795E2BF00FF03A8 /* DBRecord+ParcelKitTests.m */,
 				AB3F8D3717935E2D000F8FA0 /* Supporting Files */,
-				AB6EF65A179431B800D0BAB0 /* Vendor */,
 			);
 			path = ParcelKitTests;
 			sourceTree = "<group>";
@@ -202,28 +196,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB6EF65A179431B800D0BAB0 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				AB6EF66E179432FF00D0BAB0 /* OCMock */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		AB6EF66E179432FF00D0BAB0 /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				AB6EF66F179432FF00D0BAB0 /* libOCMock.a */,
-				AB6EF670179432FF00D0BAB0 /* NSNotificationCenter+OCMAdditions.h */,
-				AB6EF671179432FF00D0BAB0 /* OCMArg.h */,
-				AB6EF672179432FF00D0BAB0 /* OCMConstraint.h */,
-				AB6EF673179432FF00D0BAB0 /* OCMock.h */,
-				AB6EF674179432FF00D0BAB0 /* OCMockObject.h */,
-				AB6EF675179432FF00D0BAB0 /* OCMockRecorder.h */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
 		ABE87A09179353C800E2A1DA = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +204,7 @@
 				ABE87A38179355E500E2A1DA /* Vendor */,
 				ABE87A14179353C800E2A1DA /* Frameworks */,
 				ABE87A13179353C800E2A1DA /* Products */,
+				6F9095E1F7BD4676957A85B3 /* Pods-ParcelKitTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,6 +230,7 @@
 				ABE87A15179353C800E2A1DA /* Foundation.framework */,
 				AB3F8D3117935E2D000F8FA0 /* XCTest.framework */,
 				AB3F8D3417935E2D000F8FA0 /* UIKit.framework */,
+				AFD08FAF0870488884412C54 /* libPods-ParcelKitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -307,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB3F8D4317935E2D000F8FA0 /* Build configuration list for PBXNativeTarget "ParcelKitTests" */;
 			buildPhases = (
+				AACD68BBCF0B4647B150F8D5 /* Check Pods Manifest.lock */,
 				AB3F8D2C17935E2D000F8FA0 /* Sources */,
 				AB3F8D2D17935E2D000F8FA0 /* Frameworks */,
 				AB3F8D2E17935E2D000F8FA0 /* Resources */,
+				4C3FA423ADFB4542AEA90618 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,6 +360,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4C3FA423ADFB4542AEA90618 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ParcelKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACD68BBCF0B4647B150F8D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		ABE87A23179353FA00E2A1DA /* Prepare Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,6 +478,7 @@
 /* Begin XCBuildConfiguration section */
 		AB3F8D4117935E2D000F8FA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9095E1F7BD4676957A85B3 /* Pods-ParcelKitTests.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -493,19 +500,15 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/ParcelKitTests/Vendor";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "ParcelKitTests/ParcelKitTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/ParcelKitTests/Vendor/OCMock",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
 					XCTest,
-					"-force_load",
-					"$(SRCROOT)/ParcelKitTests/Vendor/OCMock/libOCMock.a",
+					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
@@ -514,6 +517,7 @@
 		};
 		AB3F8D4217935E2D000F8FA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9095E1F7BD4676957A85B3 /* Pods-ParcelKitTests.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -532,19 +536,15 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/ParcelKitTests/Vendor";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "ParcelKitTests/ParcelKitTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/ParcelKitTests/Vendor/OCMock",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
 					XCTest,
-					"-force_load",
-					"$(SRCROOT)/ParcelKitTests/Vendor/OCMock/libOCMock.a",
+					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
