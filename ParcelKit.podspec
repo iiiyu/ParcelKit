@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/overcommitted/ParcelKit"
   s.license      = 'MIT'
   s.author       = { "Jonathan Younger" => "jonathan@daikini.com" }
-  s.source       = { :git => "https://github.com/iiiyu/ParcelKit.git", :commit => "6a1d085530d130f9950922d8fe79c32c2cc9793d" }
+  s.source       = { :git => "https://github.com/iiiyu/ParcelKit.git", :commit => "af32735dfd58610c988571224b3932c70bd6ab60" }
   s.platform     = :ios, '6.1'
   s.source_files = 'ParcelKit', 'ParcelKit/ParcelKit/*.{h,m}'
   s.requires_arc = true
