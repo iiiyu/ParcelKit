@@ -9,5 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.1'
   s.source_files = 'ParcelKit', 'ParcelKit/ParcelKit/*.{h,m}'
   s.requires_arc = true
+  s.framework = 'CoreData'
   s.dependency 'Dropbox-iOS-SDK', '~> 2.0.0-b3'
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Dropbox-iOS-SDK/dropbox-ios-sync-sdk-2.0.0-b3"' }
 end
